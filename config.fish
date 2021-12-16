@@ -1,7 +1,7 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
     set -U tide_left_prompt_items 'os'  'pwd'  'aws_account'  'git'  'newline'  'character'
-
+    set -U tide_right_prompt_items 'status'  'cmd_duration'  'context'  'jobs'  'virtual_env'  'kubectl'  'time'
     set -U tide_git_icon 
 
     set -U tide_os_icon 
